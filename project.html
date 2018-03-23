@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>Aura Music Player</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="main.css">
+
+
+
+</head>
+
+<body class=" mb-2 bg-dark text-white">
+
+    <!--NAVBAR-navbar-dark bg-primary Color Blue -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--JUMBOTROn-->
+
+    <div class="jumbotron jumbotron-fluid bg-primary">
+        <div class="container text-sm-center ">
+            <h1 class="display-2 ">Aura</h1>
+            <p class="lead">Coming Soon</p>
+
+            <!--button in JUMBO-->
+            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+
+        </div>
+    </div>
+
+    <!-- set Backgroung to Gray 
+
+
+    <div class=" container text-center">
+        <h1 class="display-1 mt-5">Aura</h1>
+        <p class="lead">Coming Soon </p>  -->
+
+
+    <div class="input-group w-50 p-3 mx-auto mt-5">
+        <!-- mx auto makes btn and search bar align in center-->
+        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary p-3 bg-primary text-white" type="button">Go</button>
+            <!-- p-3 bg-primary text-white setting button to blue  -->
+        </div>
+    </div>
+
+    <!---none d-sm-block Hides img in small screens
+    <img class="mb-4 img-fluid d-none d-sm-block" src="/Users/pabloplata/SMU Class Folder/project/images/emotional-clipart-mood-10.jpg"
+        alt="">
+        -->
+
+    <div class="row mt-5">
+        <div class="col md">
+            <h3 class="mb-4"> About </h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam vero facilis repellendus molestias error animi natus
+            nesciunt ad blanditiis suscipit delectus necessitatibus, officia voluptate tempore? Porro eveniet vitae deleniti.
+        </div>
+        <div class="col md">
+            <h3 class="mb-4"> Options </h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus quibusdam, cupiditate, vel porro neque cumque
+            voluptatem nam, nostrum doloremque ipsam! Totam beatae placeat voluptatum nulla fugit consectetur facere necessitatibus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus quibusdam, cupiditate, vel porro neque
+            cumque voluptatem nam, nostrum doloremque ipsam! Totam beatae placeat voluptatum nulla fugit consectetur facere
+            necessitatibus.
+        </div>
+        <div class="col md">
+            <h3 class="mb-4"> Genres </h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid, doloribus ut quaerat ad culpa alias magnam,
+            impedit, tempore necessitatibus optio natus repudiandae consectetur ipsum blanditiis soluta quisquam deserunt
+            veniam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repudiandae cum hic! Hic laborum illo iure
+            magni! In, non cumque, illum nam illo ratione asperiores nulla adipisci ducimus, et amet. Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Et ex nostrum officiis laboriosam ipsa repudiandae eius odit quidem incidunt
+            obcaecati dicta quos, voluptatum atque quo, eligendi ducimus at consectetur recusandae?
+        </div>
+
+    </div>
+
+
+
+
+
+    <a href="https://soundcloud.com/" class="btn  btn-lg active" role="button" aria-pressed="true" id="content" style="font-size: 100px">Link</a>
+
+
+    </div>
+    <script>
+
+        var msg = String.fromCodePoint(0x1f602);
+
+        msg += String.fromCodePoint(0x1f525);
+
+        document.querySelector("#content").innerHTML = msg
+        $(".button").button('toggle')
+
+
+    </script>
+</body>
+
+</html>
